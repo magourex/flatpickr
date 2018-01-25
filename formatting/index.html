@@ -529,6 +529,11 @@
 <td>A full numeric representation of a year, 4 digits</td>
 <td>1999 or 2003</td>
 </tr>
+<tr>
+<td>Z</td>
+<td>ISO Date format</td>
+<td>2017-03-04T01:23:43.000Z</td>
+</tr>
 </tbody>
 </table>
 
@@ -576,6 +581,12 @@
 </tbody>
 </table>
 
+<h2 id="escaping-formatting-tokens">Escaping Formatting Tokens</h2>
+
+<p>You may escape formatting tokens using <code>\\</code>.</p>
+<div class="highlight"><pre style="background-color:#f0f3f3;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">{
+    dateFormat<span style="color:#555">:</span> <span style="color:#c30">&#34;Y-m-d\\Z&#34;</span>, <span style="color:#09f;font-style:italic">// Displays: 2017-01-22Z
+</span><span style="color:#09f;font-style:italic"></span>}</code></pre></div>
 
 			<aside class="copyright" role="note">
 				

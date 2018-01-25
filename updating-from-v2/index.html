@@ -466,7 +466,8 @@
 <p>Use the <code>dateFormat: &quot;Z&quot;</code> option, which is a shortcut for the ISO date format.
 <br>It contains the correct timezone information and is supported by nearly every database.</p>
 
-<p>Additionally I recommend using the <code>altInput: true</code> option to display a nicer date to the user.</p>
+<p>Additionally I recommend using the <code>altInput: true</code> option to display a nicer date to the user.
+<br>Any existing date formats using a <code>Z</code> must be escaped <code>dateFormat: &quot;dHi\\Z M y&quot;</code>.</p>
 
 <h2 id="simplified-invocation">Simplified invocation</h2>
 
